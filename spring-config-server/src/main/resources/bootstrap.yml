@@ -1,0 +1,6 @@
+# Spring Application Name
+spring:
+  application:
+    name: spring-config-server
+  profiles:
+    active: development
