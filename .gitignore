@@ -1,4 +1,5 @@
 .gradle
 spring-examples.iml
 /spring-config-server/spring-config-server.iml
+/spring-config-server/build
 .idea
