@@ -2,4 +2,6 @@
 spring-examples.iml
 /spring-config-server/spring-config-server.iml
 /spring-config-server/build
+/spring-config-client/spring-config-client.iml
+/spring-config-client/build
 .idea

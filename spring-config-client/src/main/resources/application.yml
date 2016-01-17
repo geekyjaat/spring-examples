@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: clientapp
+
+# Security enabled/disabled
+security:
+  basic:
+    enabled: false

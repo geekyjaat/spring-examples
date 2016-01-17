@@ -1,0 +1,11 @@
+apply plugin: 'spring-boot'
+
+jar {
+    baseName = 'spring-config-client'
+}
+
+dependencies {
+    compile('org.springframework.cloud:spring-cloud-config-client:1.0.3.RELEASE')
+    compile('org.springframework.boot:spring-boot-starter-web')
+    compile('org.springframework.boot:spring-boot-starter-actuator')
+}

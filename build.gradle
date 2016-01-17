@@ -1,4 +1,4 @@
-allprojects {
+subprojects {
     group 'com.barley.spring'
     version '1.0.0'
 
@@ -12,9 +12,20 @@ allprojects {
         mavenCentral()
     }
 
+
+    buildscript {
+        repositories {
+            mavenLocal()
+            mavenCentral()
+        }
+        dependencies {
+            classpath('org.springframework.boot:spring-boot-gradle-plugin:1.3.1.RELEASE')
+        }
+    }
+
     dependencies {
         testCompile('junit:junit:4.11')
-        testCompile('org.springframework.boot:spring-boot-starter-test:1.3.1.RELEASE')
+        testCompile('org.springframework.boot:spring-boot-starter-test')
     }
 
     task wrapper(type: Wrapper) {

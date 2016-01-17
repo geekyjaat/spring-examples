@@ -2,20 +2,20 @@
 server:
   port: 8888
 
-# logging level
-logging:
-  level:
-    com.barley.cloud: INFO
-
-# Security enable/disable
-security:
-  basic:
-    enabled: false
-
 # spring cloud config server git uri
 spring:
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/vikramgulia/spring-config-repo
+          uri: https://github.com/vikramgulia/spring-config-repo.git
+
+## logging level
+#logging:
+#  level:
+#    com.barley.cloud: INFO,ERROR,DEBUG
+
+# Security enable/disable
+security:
+  basic:
+    enabled: false
