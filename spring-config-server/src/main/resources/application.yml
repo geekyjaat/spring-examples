@@ -10,11 +10,6 @@ spring:
         git:
           uri: https://github.com/vikramgulia/spring-config-repo.git
 
-## logging level
-#logging:
-#  level:
-#    com.barley.cloud: INFO,ERROR,DEBUG
-
 # Security enable/disable
 security:
   basic:
