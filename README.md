@@ -64,4 +64,4 @@ spring:
     name: configserver
 ```
 
-Now we are all set up. Run the server and it will serve properties at `http://localhost:8888` from the git repo as per below URIs:
+Now we are all set up. Run the server with `java -jar spring-config-server-1.0.0.jar` and it will serve properties at [http://localhost:8888](http://localhost:8888) from the git repo as per below URIs:
