@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/vikramgulia/spring-examples.svg?branch=master)](https://travis-ci.org/vikramgulia/spring-examples)
+
 # Spring Examples
 
 ## Spring Cloud Config Server
