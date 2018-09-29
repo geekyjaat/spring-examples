@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/guliaz/spring-examples.svg?branch=master)](https://travis-ci.org/guliaz/spring-examples)
+[![Build Status](https://travis-ci.org/geekyjaat/spring-examples.svg?branch=master)](https://travis-ci.org/geekyjaat/spring-examples)
 
 # Spring Examples
 
